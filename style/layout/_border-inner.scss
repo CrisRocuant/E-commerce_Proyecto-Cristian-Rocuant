@@ -1,0 +1,28 @@
+/*------------------Linia caja sass------------------------------*/
+
+
+.border-inner {
+ 
+    position: relative;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+.border-inner * {
+    position: relative;
+    z-index: 1;
+}
+
+.border-inner::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: none;
+    border-radius: 3px;
+    border: 2px solid var(--bs-white);
+    z-index: 0;
+}
+ /*----Fin Caja-----*/
