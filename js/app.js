@@ -68,6 +68,7 @@ if(formulario){
 }
 
 
+
 if (vaciarCarrito) {
   vaciarCarrito.addEventListener("click", () => {
     carrito.length = [];
